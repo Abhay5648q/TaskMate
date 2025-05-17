@@ -1,16 +1,21 @@
-# taskmate
+# 📝 TaskMate App
 
-A new Flutter project.
+TaskMate is a simple and intuitive task management app that helps users organize their daily tasks efficiently. Whether it's a work reminder, grocery list, or study goal, TaskMate ensures you stay productive and never miss a task.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- ✅ Add, update, and delete tasks
+- 📅 Set due dates and time for reminders
+- 🗂️ Organize tasks with categories or tags
+- 🔔 Push notifications for upcoming deadlines
+- 🌙 Light & Dark theme support
+- 📊 Track completed vs pending tasks
+- 🧠 Local data persistence (offline support)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Built With
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** – Cross-platform UI toolkit  
+- **Dart** – Programming language for Flutter  
+- **Provider** – State management  
+- **Hive / SQFlite** – Local storage (choose based on your implementation)  
+- **Flutter Local Notifications** – For task reminders
