@@ -1,0 +1,45 @@
+name: taskmate
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.14
+  flutter_lints: ^2.0.0
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  build_runner: ^2.4.7
+  hive_generator: ^2.0.1
+  flutter_native_splash: ^2.4.6  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/taskmate_logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#81C784"
+  image: assets/images/native_splash.jpg
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+  android_12:
+    color: "#81C784"
+    
